@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   // Simple POST request with a JSON body using fetch
     const requestOptions = {
-        method: 'POST',
+        method: 'GET',
         headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin':'*'},
         body: JSON.stringify({ title: 'React POST Request Example' })
     };
