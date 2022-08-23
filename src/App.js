@@ -10,7 +10,7 @@ function App() {
         
        
     };
-    fetch('https://mms-b-dev-ed.my.salesforce.com/services/data/v55.0/query?q=SELECT+Name+FROM+Account', requestOptions)
+    fetch('https://mms-b-dev-ed.my.salesforce.com/services/apexrest/Account/0018d00000B23e4AAB', requestOptions)
         .then(response => response.json())
         .then(data => console.log(data))
         // .then(data => this.setState({ postId: data.id }));
