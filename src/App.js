@@ -6,7 +6,7 @@ function App() {
   // Simple POST request with a JSON body using fetch
     const requestOptions = {
         method: 'GET',
-        headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin':'*'}, 'Authorization' : 'Bearer 00D8d000004KV9a!AQkAQL8KjFpUpPhQfiFYwmP4R7qoMODr0aNhJSpVwCxGqlFV3Lreic_PDMZ_Ojbv6FE7w40uMH.FtEQqox28nu64ICoMgVlq',
+        headers: { 'Authorization' : 'Bearer 00D8d000004KV9a!AQkAQL8KjFpUpPhQfiFYwmP4R7qoMODr0aNhJSpVwCxGqlFV3Lreic_PDMZ_Ojbv6FE7w40uMH.FtEQqox28nu64ICoMgVlq'},
         
        
     };
