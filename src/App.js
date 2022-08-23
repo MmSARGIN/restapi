@@ -11,7 +11,8 @@ function App() {
        
     };
     fetch('https://mms-b-dev-ed.my.salesforce.com/services/data/v55.0/query?q=SELECT+Name+FROM+Account', requestOptions)
-        .then(response => console.log(response))
+        .then(response => response.json())
+        .then(data => console.log(data))
         // .then(data => this.setState({ postId: data.id }));
 
 
@@ -24,3 +25,4 @@ function App() {
 }
 
 export default App;
+ 
