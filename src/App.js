@@ -11,8 +11,8 @@ function App() {
        
     };
     fetch('https://mms-b-dev-ed.my.salesforce.com/services/data/v55.0/query?q=SELECT+Name+FROM+Account', requestOptions, { mode: 'no-cors'})
-        .then(response => response.json())
-        .then(data => this.setState({ postId: data.id }));
+        .then(response => console.log(response))
+        // .then(data => this.setState({ postId: data.id }));
 
 
   return (
